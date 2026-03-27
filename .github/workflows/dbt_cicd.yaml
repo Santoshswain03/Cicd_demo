@@ -61,6 +61,13 @@ jobs:
       - name: Run dbt debug
         run: dbt debug --project-dir ./dbt_demo_project
 
+      - name: Debug env variables
+        run: |
+          echo "DB: $SNOWFLAKE_DATABASE"
+          echo "SCHEMA: $SNOWFLAKE_SCHEMA"
+          echo "WH: $SNOWFLAKE_WAREHOUSE"
+          echo "ROLE: $SNOWFLAKE_ROLE"
+
       - name: Run dbt models
         run: dbt run --project-dir ./dbt_demo_project
 
