@@ -1,14 +1,13 @@
 name: dbt CI/CD Deployment
 
 on:
-push:
-branches:
-- main
+  push:
+    branches:
+      - main
 
 jobs:
-dbt-run:
-runs-on: ubuntu-latest
-
+  test:
+    runs-on: ubuntu-latest
 
 env:
   SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
@@ -60,11 +59,10 @@ steps:
       EOF
 
   - name: Run dbt debug
-    run: dbt debug --project-dir ./tasty_bytes_demo
+    run: dbt debug --project-dir ./dbt_demo_project
 
   - name: Run dbt models
-    run: dbt run --project-dir ./tasty_bytes_demo
+    run: dbt run --project-dir ./dbt_demo_project
 
   - name: Run dbt tests
-    run: dbt test --project-dir ./tasty_bytes_demo
-
+    run: dbt test --project-dir ./dbt_demo_project
