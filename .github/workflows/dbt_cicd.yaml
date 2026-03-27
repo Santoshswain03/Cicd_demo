@@ -42,7 +42,7 @@ jobs:
         run: |
           mkdir -p ~/.dbt
           cat > ~/.dbt/profiles.yml <<EOF
-          my_dbt_project:
+          dbt_demo_project:
             target: dev
             outputs:
               dev:
