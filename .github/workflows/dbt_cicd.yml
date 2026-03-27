@@ -9,7 +9,7 @@ jobs:
 dbt-run:
 runs-on: ubuntu-latest
 
-```
+
 env:
   SNOWFLAKE_ACCOUNT: ${{ secrets.SNOWFLAKE_ACCOUNT }}
   SNOWFLAKE_USER: ${{ secrets.SNOWFLAKE_USER }}
