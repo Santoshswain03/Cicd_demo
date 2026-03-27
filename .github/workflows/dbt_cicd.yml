@@ -67,4 +67,4 @@ steps:
 
   - name: Run dbt tests
     run: dbt test --project-dir ./tasty_bytes_demo
-```
+
