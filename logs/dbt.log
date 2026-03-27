@@ -1,0 +1,78 @@
+[0m18:17:44.604638 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED5D90C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED38C0050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED6EBBC50>]}
+
+
+============================== 18:17:44.612551 | 6d98fe63-e40c-4835-9490-f7014bdaabcb ==============================
+[0m18:17:44.612551 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:17:44.614014 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'write_json': 'True', 'log_cache_events': 'False', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'profiles_dir': 'C:\\Users\\Santo\\.dbt', 'log_path': 'logs', 'fail_fast': 'False', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'introspect': 'True', 'invocation_command': 'dbt init', 'static_parser': 'True', 'target_path': 'None', 'log_format': 'default', 'send_anonymous_usage_stats': 'True'}
+[0m18:18:04.337584 [debug] [MainThread]: Starter project path: C:\Users\Santo\AppData\Local\Programs\Python\Python313\Lib\site-packages\dbt\include\starter_project
+[0m18:18:04.400846 [info ] [MainThread]: 
+Your new dbt project "dbt_demo_project" was created!
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m18:18:04.402255 [info ] [MainThread]: Setting up your profile.
+[0m18:18:09.861554 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:18:09.862583 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:18:09.863201 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:19:56.843641 [info ] [MainThread]: Profile dbt_demo_project written to C:\Users\Santo\.dbt\profiles.yml using target's profile_template.yml and your supplied values. Run 'dbt debug' to validate the connection.
+[0m18:19:56.847164 [debug] [MainThread]: Command `dbt init` succeeded at 18:19:56.846774 after 132.56 seconds
+[0m18:19:56.848385 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED8F23360>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED7F26E70>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024ED8E93F00>]}
+[0m18:19:56.849713 [debug] [MainThread]: Flushing usage events
+[0m18:19:57.852069 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:20:13.962220 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229DD7C0C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229DB300050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229DE8EBC50>]}
+
+
+============================== 18:20:13.968966 | 6028f673-571f-4134-888a-13c3620b9c75 ==============================
+[0m18:20:13.968966 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:20:13.970514 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'profiles_dir': 'C:\\Users\\Santo\\.dbt', 'fail_fast': 'False', 'version_check': 'True', 'log_path': 'logs', 'debug': 'False', 'warn_error': 'None', 'use_colors': 'True', 'use_experimental_parser': 'False', 'no_print': 'None', 'quiet': 'False', 'empty': 'None', 'log_format': 'default', 'introspect': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'invocation_command': 'dbt debug', 'send_anonymous_usage_stats': 'True'}
+[0m18:20:14.023487 [info ] [MainThread]: dbt version: 1.11.2
+[0m18:20:14.024633 [info ] [MainThread]: python version: 3.13.0
+[0m18:20:14.025642 [info ] [MainThread]: python path: C:\Users\Santo\AppData\Local\Programs\Python\Python313\python.exe
+[0m18:20:14.026562 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:20:14.738748 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:20:14.739572 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:20:14.740211 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:20:14.892025 [info ] [MainThread]: Using profiles dir at C:\Users\Santo\.dbt
+[0m18:20:14.893321 [info ] [MainThread]: Using profiles.yml file at C:\Users\Santo\.dbt\profiles.yml
+[0m18:20:14.894429 [info ] [MainThread]: Using dbt_project.yml file at D:\Cicd_demo\dbt_project.yml
+[0m18:20:14.895552 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:20:14.897600 [debug] [MainThread]: Command `dbt debug` failed at 18:20:14.897334 after 1.32 seconds
+[0m18:20:14.898236 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229E0A25350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229E0A4CEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000229E09C0C00>]}
+[0m18:20:14.898921 [debug] [MainThread]: Flushing usage events
+[0m18:20:15.845894 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m18:21:09.895706 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E3C060C20>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E39BA4050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E3D18BC50>]}
+
+
+============================== 18:21:09.902836 | b9fc198b-3477-4c7d-aafa-d9b4e183ea15 ==============================
+[0m18:21:09.902836 [info ] [MainThread]: Running with dbt=1.11.2
+[0m18:21:09.904406 [debug] [MainThread]: running dbt with arguments {'printer_width': '80', 'indirect_selection': 'eager', 'log_cache_events': 'False', 'write_json': 'True', 'partial_parse': 'True', 'cache_selected_only': 'False', 'warn_error': 'None', 'version_check': 'True', 'fail_fast': 'False', 'log_path': 'logs', 'profiles_dir': 'C:\\Users\\Santo\\.dbt', 'debug': 'False', 'use_colors': 'True', 'use_experimental_parser': 'False', 'empty': 'None', 'quiet': 'False', 'no_print': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'invocation_command': 'dbt debug', 'log_format': 'default', 'introspect': 'True', 'target_path': 'None', 'static_parser': 'True', 'send_anonymous_usage_stats': 'True'}
+[0m18:21:09.945742 [info ] [MainThread]: dbt version: 1.11.2
+[0m18:21:09.946881 [info ] [MainThread]: python version: 3.13.0
+[0m18:21:09.947866 [info ] [MainThread]: python path: C:\Users\Santo\AppData\Local\Programs\Python\Python313\python.exe
+[0m18:21:09.948792 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m18:21:10.665091 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m18:21:10.665896 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m18:21:10.666569 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m18:21:10.818932 [info ] [MainThread]: Using profiles dir at C:\Users\Santo\.dbt
+[0m18:21:10.820073 [info ] [MainThread]: Using profiles.yml file at C:\Users\Santo\.dbt\profiles.yml
+[0m18:21:10.821168 [info ] [MainThread]: Using dbt_project.yml file at D:\Cicd_demo\dbt_project.yml
+[0m18:21:10.822101 [error] [MainThread]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m18:21:10.824205 [debug] [MainThread]: Command `dbt debug` failed at 18:21:10.823888 after 1.16 seconds
+[0m18:21:10.824889 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E3F2E5350>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E3F30CEF0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000022E3F280C00>]}
+[0m18:21:10.826130 [debug] [MainThread]: Flushing usage events
+[0m18:21:11.783272 [debug] [MainThread]: An error was encountered while trying to flush usage events
